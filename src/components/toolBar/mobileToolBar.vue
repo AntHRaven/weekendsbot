@@ -1,5 +1,5 @@
 <template>
-  <q-footer elevated class="bg-white no-shadow">
+  <q-footer class="bg-white shadow-2">
     <q-toolbar class="desktop-only">
       <q-toolbar-title>Footer</q-toolbar-title>
     </q-toolbar>
@@ -12,9 +12,11 @@
         v-model="tab"
         class="bg-white text-grey"
       >
-        <q-tab name="search" icon="search" label="Поиск" />
-        <q-tab name="map" icon="map" label="Регионы" />
-        <q-tab name="profile" icon="person" label="Профиль" />
+        <q-route-tab to="/" name="home" icon="home" />
+        <q-route-tab to="/regions" name="map" icon="map" />
+        <q-route-tab to="/telegram" name="send" icon="send" />
+        <q-route-tab to="/search" name="search" icon="search" />
+        <q-route-tab to="/profile" name="profile" icon="person" />
       </q-tabs>
     </q-toolbar>
   </q-footer>
@@ -23,6 +25,11 @@
 <script>
 export default {
   name: "mobileToolBar",
+  data() {
+    return {
+      tab: "ЦФО",
+    };
+  },
 };
 </script>
 
