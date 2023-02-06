@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import regionsView from "@/views/regionsView";
+import regionsView from "@/views/regions/regionsView";
+import oneRegionView from "@/views/regions/oneRegionView";
+import attractionsView from "@/views/attractions/attractionsView";
 
 const routes = [
   {
@@ -12,6 +14,16 @@ const routes = [
     path: "/regions",
     name: "regions",
     component: regionsView,
+  },
+  {
+    path: "/regions/:title",
+    name: "one-region",
+    component: oneRegionView,
+  },
+  {
+    path: "/attractions",
+    name: "attractions",
+    component: attractionsView,
   },
 ];
 

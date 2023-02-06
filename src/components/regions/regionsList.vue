@@ -3,7 +3,7 @@
     <q-header bordered class="bg-white">
       <q-toolbar>
         <q-btn flat round dense icon="arrow_back" class="q-mr-sm text-dark" />
-        <q-toolbar-title class="text-dark">Регионыыы</q-toolbar-title>
+        <q-toolbar-title class="text-dark">Регионы</q-toolbar-title>
       </q-toolbar>
     </q-header>
     <region-card
