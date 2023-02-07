@@ -18,7 +18,13 @@
     </div>
 
     <q-list bordered separator>
-      <q-item :key="i" v-for="(item, i) in list" clickable v-ripple>
+      <q-item
+        to="/attractions"
+        :key="i"
+        v-for="(item, i) in list"
+        clickable
+        v-ripple
+      >
         <q-item-section>{{ item }}</q-item-section>
       </q-item>
     </q-list>

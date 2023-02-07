@@ -19,7 +19,7 @@
 import router from "@/router";
 
 export default {
-  name: "regionCard",
+  name: "socialItem",
   props: ["title", "imgSrc"],
 
   methods: {
@@ -30,8 +30,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.my-card {
-  width: 100%;
-}
-</style>
+<style scoped></style>
