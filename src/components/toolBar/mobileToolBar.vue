@@ -14,7 +14,7 @@
       >
         <q-route-tab to="/" name="home" icon="home" />
         <q-route-tab to="/regions" name="map" icon="map" />
-        <q-route-tab to="/telegram" name="send" icon="send" />
+        <q-route-tab to="/socials" name="send" icon="send" />
         <q-route-tab to="/favorite" name="favorite" icon="star" />
         <q-route-tab to="/profile" name="profile" icon="person" />
       </q-tabs>

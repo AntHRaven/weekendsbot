@@ -3,6 +3,7 @@ import HomeView from "../views/HomeView.vue";
 import regionsView from "@/views/regions/regionsView";
 import oneRegionView from "@/views/regions/oneRegionView";
 import attractionsView from "@/views/attractions/attractionsView";
+import socialsList from "@/components/socials/socialsList";
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: "/attractions",
     name: "attractions",
     component: attractionsView,
+  },
+  {
+    path: "/socials",
+    name: "socials",
+    component: socialsList,
   },
 ];
 
